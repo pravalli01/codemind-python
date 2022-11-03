@@ -1,12 +1,12 @@
 import math
 Number=int(input())
-s=0
+sum=0
 sqr=math.pow(Number,2)
 while sqr>0:
     rem=sqr%10
-    s=s+rem
+    sum=sum+rem
     sqr=sqr//10
-if s==Number:
+if sum==Number:
     print("Neon Number")
 else:
     print("Not Neon Number")
